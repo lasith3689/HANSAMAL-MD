@@ -12,7 +12,7 @@ const modeCommand = async (m, Matrix) => {
 
     if (cmd === 'mode') {
         if (!isCreator) {
-            await Matrix.sendMessage(m.from, { text: "*📛 THIS IS AN OWNER COMMAND*" }, { quoted: m });
+            await Matrix.sendMessage(m.from, { text: "*📛 THIS IS AN OWNER copy COMMAND*" }, { quoted: m });
             return;
         }
 
