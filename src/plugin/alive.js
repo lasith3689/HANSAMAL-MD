@@ -12,13 +12,14 @@ const alive = async (m, Matrix) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).toLowerCase() : '';
     if (['alive', 'uptime', 'runtime'].includes(cmd)) {
 
-  const uptimeMessage = `*💞 HANSAMAL-MD Status Overview♻️*
+  const uptimeMessage = `*💞 cop of ethiks mb HANSAMAL-MD Status Overview♻️*
 _________________________________________
 
 *📆 ${days} Day*
 *🕰️ ${hours} Hour*
 *⏳ ${minutes} Minute*
 *⏲️ ${seconds} Second*
+the bot is ethik md copi
 _________________________________________
 `;
 
@@ -51,7 +52,7 @@ _________________________________________
             text: uptimeMessage
           }),
           footer: proto.Message.InteractiveMessage.Footer.create({
-            text: "© Powered By 🌐IMALKA-HANSAMAL"
+            text: "© Powered By 🌐IMALKA-HANSAMAL hora"
           }),
           header: proto.Message.InteractiveMessage.Header.create({
             title: "",
@@ -68,7 +69,7 @@ _________________________________________
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "IMALKA-MD",
+                  newsletterName: "IMALK fuck",
                   serverMessageId: 143
                 }
               }
